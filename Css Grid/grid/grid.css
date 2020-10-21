@@ -1,0 +1,66 @@
+
+html, body{
+    background: #7159c1;
+}
+
+
+
+.conteiner
+{
+    width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr; /*para cada num fr(ex 2fr) cria uma coluna (1fr 2fr 3fr cria 3 colunas) */
+    grid-template-rows: 20vh 70vh 10vh; /* tamanho das linhas*/
+    /*grid-gap emgloba o grid-column-gap e grid-row-gap
+    /*grid-gap: 35px; /*cria espacos entre as grids row/column*/
+    /*grid-column-gap: 30px; /*espaco entre as colunas*/
+    /*grid-row-gap: 30px; /*espaco entre as linhas*/
+    grid-template-areas: "h h " "m a " "f f"; /*as outras informacoes seram colocadas a baixo, heder mains aside footer*/
+    /*grid-template-areas: "h,." vai fazer ele ocupar so a primeira parte o . vai ficar com a corde fundo */
+}
+
+header{
+    background: lightcoral;
+    /*height: 100px;*/
+    /*Jeito 1 de determinar o espaco ocupado pelas colunas*/
+    /*grid-column-start: 1;
+    grid-column-end: 3; assim ou como esta logo abaixo*/
+    /*Jeito 2 de determinar o espaco ocupado pelas colunas*/
+    /*grid-column: 1/3;*/
+    /*grid-row: 3/4;*//*mesma coisa do column so q pra linhas*/
+    grid-area: h;
+
+}
+
+main{
+    background: blue;
+    /*height: 100px;*/
+    /*Jeito 1 de determinar o espaco ocupado pelas colunas*/
+    /*grid-column-start: 1;
+    grid-column-end: 2; assim ou como esta logo abaixo*/
+    /*Jeito 2 de determinar o espaco ocupado pelas colunas*/
+    /*grid-column: 1/2;*/
+    grid-area: m;
+}
+
+aside{
+    background: greenyellow;
+    /*height: 100px;*/
+    /*Jeito 1 de determinar o espaco ocupado pelas colunas*/
+    /*grid-column-start: 1;
+    grid-column-end: 2; assim ou como esta logo abaixo*/
+    /*Jeito 2 de determinar o espaco ocupado pelas colunas*/
+    /*grid-column: 2/3;*/
+    grid-area: a;
+}
+footer{
+    background: red;
+    /*height: 100px;*/
+    /*Jeito 1 de determinar o espaco ocupado pelas colunas*/
+    /*grid-column-start: 1;
+    grid-column-end: 2; assim ou como esta logo abaixo*/
+    /*Jeito 2 de determinar o espaco ocupado pelas colunas*/
+    /*grid-column: 1/3;*/
+    grid-area: f;
+}

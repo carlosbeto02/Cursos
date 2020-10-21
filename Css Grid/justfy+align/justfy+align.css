@@ -1,0 +1,36 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner{
+    background: black;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+    grid-gap: 5px;
+
+    /*justify-content: center; /*Ajusta local do grid relativo a possicao q ele ocipa em relacao a pagina u bloco q ele esta, no campo da horizontal*/
+    /* align-content: center; /*Mesma coisa q o junstify-content porem na vertucak*/
+
+    /*justify-items: center; /*Ajusta o item no espaco do grid view*/
+    /*align-items: center; /*mesma coisa do de cima mas na horizontal*/
+}
+
+.conteiner > div{
+    background: #7159c1;
+    width: 50%;
+    height: 50%;
+
+    justify-self: center; /*colocado no proprio item e subistitiu o justify-items*/
+    align-self: center; /*colocado no proprio item e subistitiu o *align-items*/
+}

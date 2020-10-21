@@ -1,0 +1,63 @@
+.container{
+    margin: 0 auto;    
+    width: 100%;
+    max-width: 720px;
+}
+header{
+    width: 100%;
+    background-color: blue;
+    height: 300px;
+}
+
+.wrapper{
+    width: 100%;
+
+}
+
+.esquerda{
+    display: inline-block; /* funciona como una linha de texto para elemtenos, quando acaba a linha ele escorrega para baixo  */
+    vertical-align: top;
+    width: 47%;
+    height: 300px;
+    background-color: burlywood;
+    /*float: left;*//*ou inline-block*/
+    min-width: 250px;
+    margin: auto 1%;
+}
+
+.direita{
+    display: inline-block; /* funciona como una linha de texto para elemtenos, quando acaba a linha ele escorrega para baixo  */
+    vertical-align: top;
+    width: 47%;
+    height: 300px;
+    background-color: burlywood;
+    /*float: right;*//*ou inline-block*/
+    min-width: 250px;
+    margin: auto 1%;
+}
+
+.teste{
+    margin: 30px auto;
+}
+.borda{
+    margin-top: 20px;
+    text-align: center;
+    overflow: auto;
+    border-bottom: 5px solid grey;
+    border-top: 5px solid grey;
+    padding: 20px;
+    width: 94%;    
+}
+.wrapper img{
+    display: block;
+    max-width: 90%;
+    margin: auto auto;
+    padding: 2em;
+}
+
+footer{
+    width: 100%;
+    background-color: greenyellow;
+    height: 300px;
+}
+

@@ -1,0 +1,31 @@
+*Leitor de tela
+ -JAWS (licença)
+ -NVDA
+ -VoiceOver (Mac)
+
+*Editores
+ -brackets
+ -visual code
+
+ *Forças e prioridades dentro do css
+    -Tag - 1 (p,h2)
+    -clas - 10 (.teste)
+    -id - 100 (#texte)
+    -inline - 1000 (quando colcomos o Style direto no html)
+
+*inputs para mobilie
+    - mobile input types
+
+*fontes web codigo aberto
+    - Google fontes
+
+*Unicode para codigos de letrar e simbulos customizaveis
+
+% pra maioria dos layouts e coisas proporcionais entre si (ex: colunas, grids etc)
+
+em e rem quando é algo tipografico, relacionado a texto. (ex: a margem do titulo tem a ver com o tamanho do titulo)
+
+ch nunca usei, nao vejo vantagem
+
+px para coisas mais fixas. (ex: largura de uma borda, as vezes o tamanho de um logo)
+

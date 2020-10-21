@@ -1,0 +1,126 @@
+header{
+    padding: 20px 0;
+}
+.box{
+    position: relative;
+    width: 1280px;
+    height: 100px;
+    margin: auto;
+    background-color: #808080;
+}
+
+.t-esquerda{
+    position: absolute;
+    top:30px;
+}
+
+.t-esquerda ul h1{
+    display: inline;
+    font-size: 25px;
+    color: blue;
+    margin: 100px 0 0 0 ;
+}
+
+.t-esquerda li {
+    display: inline;
+    margin: 0 0 0 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.t-esquerda li:after{
+    content: "˅";
+}
+
+.t-direita {
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    top: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.t-direita li{
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+.input-globo{
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 5px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagem-logo{
+    width: 1280px;
+    height: 252px;
+    background-color: #dddddd;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.imagem-logo img{
+    border: solid 1px gold;
+}
+.grid-principal{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 1280px;
+    margin: 0 auto;
+}
+.grid-um{
+    background: gold;
+}
+.grid-um h2{
+    color: limegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.grid-um h2 + p{
+    color: limegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+}
+
+.grid-um h2 + p:before{
+    content: "●";
+    color: #808080;
+    margin: 0 5px;
+}
+
+.noticias{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.noticias li{
+    display: inline-block;
+    text-align: start;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+.img-conf{
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    margin: 20px 10px;
+}
+
+.grid-dois{
+    background: gray;
+}
+
+.grid-tres{
+    background: hotpink;
+}
+
+
